@@ -1,0 +1,122 @@
+
+html {
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    font-weight: 900;
+    padding-top: 40px;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+}
+
+h2 {
+   font-size: 2em;
+}
+
+.author img {
+    max-width: 7em;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.author p:first-of-type {
+    color: white;
+    font-weight: bold;
+    text-align: center; 
+    padding: 10px 0px 5px 0px;
+}
+.author p:last-of-type {
+    color: white;
+    text-align: center; 
+    padding: 0px 0px 30px 0px;
+    font-size: 0.7em;
+}
+
+.header-row {
+    display: block;
+}
+
+.header-row:nth-child(1) > span {
+    color: #FFE964; 
+}
+
+.header-row:nth-child(2) > span {
+    color: #FF523D; 
+}
+
+.header-row:nth-child(3) > span {
+    color: #223C88; 
+}
+
+.header-row:nth-child(3) {
+    border-bottom: 4px solid white;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.headline {
+    background-image: url("graphics/banner.jpg");
+    min-height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.mission {
+    background-color: #FFE964;
+    text-align: center;
+    min-height: 200px;
+}
+
+.mission h2, p {
+    width: 60vw;
+    margin: 0 auto;
+    padding: 20px;
+} 
+
+.aboutus {
+    background-color: white;
+    min-height: 300px;
+}
+
+.ourteam {
+    background-color: #FF523D;
+}
+
+.ourteam h2, footer h2 {
+    color: white;
+}
+
+footer {
+    background-color: #223C88;
+}
+
+h1, h2, p, .ourteam img {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+footer span span {
+    color: white;
+    display: block;
+}
+
+strong {
+    margin-top: 20px;  
+    display: inline-block;
+}
+
+.mission, .aboutus, .ourteam, footer {
+    padding: 30px 0;
+}
+
